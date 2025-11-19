@@ -347,10 +347,12 @@ const App = () => {
       {/* Header */}
       <header className="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 sticky top-0 z-10 transition-colors duration-300">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="bg-blue-600 p-2 rounded-lg">
-               <MessageSquare className="w-5 h-5 text-white" />
-            </div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+              alt="WhatsApp Logo" 
+              className="w-9 h-9" 
+            />
             <h1 className="text-xl font-bold text-slate-900 dark:text-white tracking-tight">Smart Whatsapp QR Code</h1>
           </div>
           <button 
